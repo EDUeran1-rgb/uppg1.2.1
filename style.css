@@ -5,13 +5,22 @@
 }
 body{
    height:100vh;
+   padding-left: 400px;
+   padding-top: 100px;
 }
 div{
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   display:grid;
   place-content:center;
   width:400px;
-  height:250px;
-  background:#0002;
+  height:400px;
+  background:rgb(0, 0, 0);
+  color: brown; /*thats red bro???*/
+  font-size:3rem;
+  border-radius: 10px;
 }
 
 .synlig{
