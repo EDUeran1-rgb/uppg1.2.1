@@ -29,3 +29,8 @@ div{
 .osynlig{
   display:none;
 }
+.synlig2{
+  display:grid;
+  background: rgb(51, 0, 255);
+  color:rgb(255, 230, 0);
+}

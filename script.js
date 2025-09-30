@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const ruta=document.getElementById("ruta");
 
     btn.addEventListener('click',function(){
-        ruta.classList.add('synlig');
+        ruta.classList.add('synlig2');
         ruta.classList.remove('osynlig');
         console.log('ruta synlig');
         btn.classList.remove('synlig');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.classList.add('synlig');
         btn.classList.remove('osynlig');
         console.log('ruta osynlig');
-        ruta.classList.remove('synlig');
+        ruta.classList.remove('synlig2');
         ruta.classList.add('osynlig');
         console.log('knapp synlig');
     }); 
